@@ -10,7 +10,7 @@ class Cars(BaseModel):
     cars:List[Car]
 
 app=FastAPI()
-origins=['http://localhost:5173','https://fast-api-project-two.vercel.app']
+origins=['http://localhost:5173','https://fast-api-project-two.vercel.app','https://fast-api-project-79l13rupf-spandys-projects.vercel.app','fast-api-project-spandys-projects.vercel.app','fast-api-project-git-main-spandys-projects.vercel.app']
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
